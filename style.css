@@ -153,6 +153,28 @@ h3{
     }
   }
   
+  @media (max-width: 600px) {
+    .card .pic{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50%;
+      bottom: 150px;
+      width: auto;
+      border-radius: 90%;
+    }
+    
+    .card:hover img {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 300px;
+      transition: 2s;
+      border-radius: 8px;
+    } 
+  }
+
   @media (max-width: 391px){
     .card .pic{
       display: flex;
